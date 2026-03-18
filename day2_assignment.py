@@ -1,0 +1,11 @@
+# Q1. WAP to ask user to input user's name, age, email, phone and address and display them
+name = input ("enter your name: ")
+age = int (input ("enter your age: "))
+email = input ("enter your mail: ")
+phone = input ("enter your phone number: ")
+address = input ("enter your address: ")
+# print(type(name))
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Email: {email}")
+print(f"Phone: {phone}, Address: {address}")
